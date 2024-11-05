@@ -1,0 +1,120 @@
+ /* Basic styling */
+ 
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: white;
+ }
+ 
+ h1 {
+     margin-bottom: 15px;
+     text-align: center;
+     color: #ffa500;
+     font-size: 50px;
+ }
+ 
+ section {
+     position: relative;
+     padding: 15px;
+     width: 90%;
+ }
+ 
+ p {
+     position: relative;
+     clear: right;
+ }
+ 
+ div {
+     position: relative;
+     background-color: gray;
+     border: 1px solid black;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: auto;
+ }
+ 
+ .subheading1 {
+     float: right;
+     width: 100px;
+     padding: 5px;
+     margin: -1px -1px 0px;
+     border: 1px solid black;
+     text-align: right;
+     font-size: 125%;
+     font-weight: bold;
+     background-color: #FFB6C1;
+ }
+ 
+ .subheading2 {
+     float: right;
+     color: white;
+     width: 100px;
+     padding: 5px;
+     margin: -1px -1px 0px;
+     border: 1px solid black;
+     text-align: center;
+     font-size: 125%;
+     font-weight: bold;
+     background-color: #FF0000;
+ }
+ 
+ .subheading3 {
+     color: black;
+     float: right;
+     width: 100px;
+     padding: 5px;
+     margin: -1px -1px 0px;
+     border: 1px solid black;
+     text-align: center;
+     font-size: 125%;
+     font-weight: bold;
+     background-color: rgb(223, 212, 121);
+ }
+ 
+ .content {
+     padding: 5px;
+     background-color: gray;
+     font-family: Helvetica;
+     color: black;
+     margin: 2px;
+     height: 120px;
+ }
+ 
+ .row {
+     width: 90%;
+ }
+ /* Desktop view */
+ 
+ @media (min-width: 992px) {
+     .column-lg-4 {
+         float: left;
+         width: 33.33%;
+     }
+ }
+ /* Tablet view */
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+     .colmn-md-6 {
+         float: left;
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .colmn-md-12 {
+         float: left;
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+ /* mobile view */
+ 
+ @media (max-width: 767px) {
+     .colmn-sm-12 {
+         float: left;
+         width: 100%;
+     }
+ }
